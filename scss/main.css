@@ -1,0 +1,366 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+body {
+  font-family: 'Roboto Slab', serif;
+}
+
+.header-section {
+  background: #2e91fc;
+  color: white;
+  text-align: center;
+  padding: 2rem .5rem .7rem .5rem;
+}
+
+.header-section .client .success-section {
+  font-size: 2rem;
+}
+
+.header-section .congrat-section {
+  font-size: 1.3rem;
+}
+
+.header-section .congrat-section span {
+  color: yellow;
+}
+
+.header-section .attention {
+  font-size: 1.7rem;
+}
+
+.common-section {
+  text-align: center;
+  color: #2a3135;
+  padding: 2rem 0;
+}
+
+.common-section h2 {
+  font-size: 4rem;
+  padding-bottom: .5rem;
+}
+
+.common-section h3 {
+  padding-bottom: .5rem;
+  color: #2e91fc;
+}
+
+.common-section p {
+  font-size: 1.1rem;
+}
+
+.common-section .common-section-title {
+  padding: .5rem 7rem;
+  font-size: 4rem;
+}
+
+.common-section .common-section-title span {
+  color: #2e91fc;
+}
+
+.common-section .common-section-text h2 {
+  font-size: 3rem;
+  margin: .5rem 3rem;
+  border-top: 2px dotted gray;
+}
+
+.common-section .common-section-text h2 span {
+  color: #2e91fc;
+}
+
+.common-section .text-2 {
+  font-size: 2rem;
+  padding: .5rem 3rem;
+}
+
+.download-guide {
+  padding: .5rem 0;
+}
+
+.download-guide h3 {
+  font-size: 2.1rem;
+  text-align: center;
+  border-bottom: 2px dotted gray;
+  color: #2e91fc;
+  margin-bottom: 1.2rem;
+}
+
+.download-guide .download-guide-fitures p {
+  line-height: 1.7rem;
+  font-size: 1.5rem;
+}
+
+.download-guide .download-guide-fitures p span {
+  color: #2e91fc;
+}
+
+.guide-section {
+  padding: .5rem;
+}
+
+.guide-section .guide {
+  margin: 2rem 0;
+  padding: .5rem 0 1rem 0;
+  text-align: center;
+  color: #fff;
+  background: #e93d3d;
+  cursor: pointer;
+}
+
+.guide-section .guide p {
+  margin: 0;
+  line-height: .2rem;
+}
+
+.guide-section .download-text {
+  color: #2e91fc;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.google-training {
+  margin: 4rem 5rem;
+  padding: .5rem 0 1rem 0;
+  text-align: center;
+  color: #fff;
+  background: #e93d3d;
+  cursor: pointer;
+}
+
+.google-training p {
+  margin: 0;
+  line-height: .2rem;
+}
+
+.exposure-section {
+  background: #43464b;
+  text-align: center;
+  padding: 1.8rem .5rem;
+}
+
+.exposure-section h3 {
+  font-size: 2.5rem;
+  padding-bottom: .8rem;
+  color: #c5c2c2;
+}
+
+.exposure-section figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.exposure-section figure .img-tik {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 6rem;
+}
+
+.exposure-section p {
+  font-size: 1.9rem;
+  padding: .5rem 1rem;
+  color: #9e9d9d;
+}
+
+.bono-section {
+  margin-bottom: 10rem;
+}
+
+.bono-section .text-img img {
+  height: 50vh;
+}
+
+.bono-section .text-img p {
+  font-size: 1.7rem;
+  padding: .5rem 2rem;
+  text-align: center;
+  color: #2e91fc;
+}
+
+.bono-section .bono-intro {
+  padding-top: 1.5rem;
+}
+
+.bono-section .bono-intro p {
+  font-size: 1.2rem;
+}
+
+.bono-section .bono-intro .bono-fitures {
+  padding-top: 3rem;
+}
+
+.bono-section .bono-intro .bono-fitures p {
+  line-height: .8rem;
+}
+
+.bono-section .your-strategy {
+  margin: 3rem 0;
+  padding: .5rem 0 1rem 0;
+  text-align: center;
+  color: #fff;
+  background: #e93d3d;
+  cursor: pointer;
+}
+
+.bono-section .your-strategy p {
+  margin: 0;
+  line-height: .2rem;
+}
+
+.select-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2rem 0;
+}
+
+.select-btn button {
+  border: none;
+  outline: none;
+  background: #2e91fc;
+  color: #fff;
+  padding: .7rem 3rem;
+  border-radius: .3rem;
+}
+
+.footer {
+  background: #2a3135;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 10rem;
+  color: gray;
+}
+
+.modal .modal-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 700px;
+}
+
+.modal-body input {
+  border: none;
+  background: #dff0e5;
+}
+
+@media (max-width: 768px) {
+  .header-section .client .success-section {
+    font-size: 1.1rem;
+  }
+  .header-section .congrat-section {
+    font-size: 1.1rem;
+  }
+  .header-section .attention {
+    font-size: 1.3rem;
+  }
+  .common-section h2 {
+    font-size: 2rem;
+  }
+  .common-section p {
+    font-size: 1.1rem;
+  }
+  .common-section .common-section-title {
+    padding: .5rem;
+    font-size: 2rem;
+  }
+  .common-section .common-section-text h2 {
+    font-size: 1.5rem;
+    margin: .5rem 1rem;
+  }
+  .common-section .text-2 {
+    font-size: 1rem;
+  }
+  .download-guide h3 {
+    font-size: 1.5rem;
+    margin-bottom: .8rem;
+  }
+  .download-guide .download-guide-fitures p {
+    line-height: 2rem;
+    font-size: .8rem;
+  }
+  .guide-section .guide p {
+    margin: 0;
+    line-height: 2rem;
+    font-size: .8rem;
+  }
+  .guide-section .download-text {
+    font-size: .8rem;
+  }
+  .exposure-section h3 {
+    font-size: 1.2rem;
+  }
+  .exposure-section figure {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .exposure-section p {
+    font-size: 1rem;
+  }
+  .google-training {
+    margin: 0 0;
+    padding: .5rem 0 .5rem 0;
+  }
+  .google-training p {
+    margin: 0;
+    line-height: 1.2rem;
+  }
+  .bono-section {
+    margin-bottom: 4rem;
+  }
+  .bono-section figure {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .bono-section .text-img img {
+    height: 50vh;
+  }
+  .bono-section .text-img p {
+    font-size: 1rem;
+    padding: .5rem 2rem;
+    text-align: center;
+    color: #2e91fc;
+  }
+  .bono-section .bono-intro {
+    padding-top: 1.5rem;
+  }
+  .bono-section .bono-intro p {
+    font-size: .8rem;
+  }
+  .bono-section .bono-intro .bono-fitures {
+    padding-top: 2rem;
+  }
+  .bono-section .bono-intro .bono-fitures p {
+    line-height: 1.8rem;
+  }
+  .bono-section .your-strategy p {
+    margin: 0;
+    line-height: 1.5rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */
